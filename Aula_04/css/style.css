@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    max-width: 900px;
+    margin: 10px auto;
+}
+
+table {
+    width: 100%;
+    border: 1px solid red;
+
+}
+
+.primeTr {
+    font-size: 20px;
+    background-color: midnightblue;
+    color: white;
+}
+
+.secondTr {
+    background-color: gray; 
+    color: white;
+    text-align: center;
+}
+
+.finalTr {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
