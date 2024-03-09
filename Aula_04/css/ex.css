@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    max-width: 450px;
+    margin: 10px auto;
+}
+
+table {
+    border: 1px solid gray;
+}
+
+.firstTr {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.secondTr {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.thirdTr {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.fourthTr {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.fithTr {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.sixthTr {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.finalTr {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.classone{
+    display:inline-block;
+    width: 120px;
+    height: 30px;
+    background-color: lightblue;
+    color: white;
+}
+
+.classtwo{
+    display:inline-block;
+    width: 120px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.classthree{
+    display:inline-block;
+    width: 120px;
+    height: 30px;
+    background-color: purple;
+    color: white;
+}
