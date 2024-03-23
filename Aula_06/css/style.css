@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(143, 143, 143);
+    color: rgb(0, 4, 216);
+}
+ 
+.form-control{
+    margin: 20px;
+}
+ 
+.form-control label{
+    font-weight: bold;
+}
+ 
+
+.enviar{
+    padding: 10px;
+    background: yellowgreen;
+    color: white;
+    border: 0;
+}
+
+.limpar{
+    padding: 10px;
+    background: crimson;
+    color: white;
+    border: 0;
+}
+
+.cursor {
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--22/03/24-->
+    <div id="container">
+        <h1>Formulário</h1>
+ 
+        <form>
+            <fieldset>
+                <legend>Cadastro</legend>
+ 
+                <div class="form-control">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome"/>
+                </div>
+ 
+                <div class="form-control">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email"/>
+                </div>
+ 
+                <div class="form-control">
+                    <select name="frutas" id="frutas">
+                        <option value=""></option>
+                    </select>
+                </div>
+            <fieldset>
+
+                <legend>Dados Gerais</legend>
+                <div class="form-control">
+                  <label for="data">Data:</label>
+                  <input type="date" id="data" name="data"/>
+                </div>
+                
+                <div class="form-control">
+                    <label for="numero">Numero:</label>
+                    <input type="number" id="numero" name="numero"/>
+                </div>
+
+                <div class="form-control">
+                    <label for="conhecimento">Conhecimento:</label>
+                    <input type="range" id="conhecimento" name="conhecimento">
+                </div>
+
+                <div class="form-control">
+                    <label for="horas">Horas:</label>
+                    <input type="time" id="horas" name="horas">
+                </div>
+
+                 <div class="form-control">
+                    <label for="arquivo">Arquivo:</label>
+                    <input type="file" id="arquivo" name="arquivo">
+                </div>
+
+                <div class="form-control">
+                    <button class="enviar cursor" type="submit">Enviar</button>
+                    <button class="limpar cursor" type="reset">Limpar</button>
+
+
+                </div>
+                 
+            </fieldset>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
